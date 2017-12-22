@@ -4,9 +4,9 @@ html {
 
 body {
     min-height: 100%;
-/*    background-color: #5ba4fc;*/
-    animation: colorchange 100s infinite;
-    -webkit-animation: colorchange 100s infinite;
+    background: radial-gradient(circle, #82beeb, #5ba4fc);;
+/*    animation: colorchange 100s infinite;*/
+/*    -webkit-animation: colorchange 100s infinite;*/
     
 }
 
@@ -67,6 +67,7 @@ body {
     left: 50%;
     margin-left: -82px;
 }
+
 
 p:last-child {
     margin-bottom: 0;
