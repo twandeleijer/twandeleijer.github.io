@@ -1,35 +1,14 @@
+/*    Palette http://www.color-hex.com/color-palette/1294 */
+
 html {
     height: 100%;
 }
 
 body {
     min-height: 100%;
-    background: radial-gradient(circle, #adcbe3, #63ace5);;
-/*    animation: colorchange 100s infinite;*/
-/*    -webkit-animation: colorchange 100s infinite;*/
-/*    Palette http://www.color-hex.com/color-palette/1294 */
-    
+    background: radial-gradient(circle, #adcbe3, #63ace5);
+    background-size: cover;
 }
-
-@keyframes colorchange
-    {
-      0%   {background: #e7fdf8;}
-      20%  {background: #a1fcff;}
-      40%  {background: #81eff8;}
-      60%  {background: #82beeb;}
-      80%  {background: #5ba4fc;}
-      100% {background: #e7fdf8;}
-    }
-
-    @-webkit-keyframes colorchange 
-    {
-      0%   {background: #e7fdf8;}
-      20%  {background: #a1fcff;}
-      40%  {background: #81eff8;}
-      60%  {background: #82beeb;}
-      80%  {background: #5ba4fc;}
-      100% {background: #e7fdf8;}
-    }
 
 .container {
     max-width: 500px;
